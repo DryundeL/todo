@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    font-family: "Inter", "semi-bold";
+}
+main{
+    background-color: #3A3F49 !important; 
+    width: 1200px;
+    height: auto;
+    padding: 20px 40px 40px 40px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    
+
+}   
+body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #61DBFB;
+    width: 100vw;
+    height: 100vh;
+}
+.date{
+    font-size: 20px;
+    margin: 0;
+}
+.active{
+    margin: 0;
+    color:#61DBFB;
+}
+.enter-task__container{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    background-color: #61DBFB;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.btn:active{
+    background-color:#55abc0;
+}
+.what-to-do{
+    width: 400px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.tasks-list__item{
+    padding: 10px 0;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.name-to-do{
+    margin-left: 10px;
+}
+.tasks-list{
+    padding:0;
+    list-style-type: none;
+    max-height: 370px;
+    overflow-y: auto;
+    min-height: 370px;
+}
+.ok{
+    filter: brightness(1);
+    fill:white;
+}
+
+.trash{
+    margin-left: auto;
+}
+
+.ok:hover{
+    fill:lime;
+    cursor:pointer;
+}
+.trash:hover{
+    fill:red;
+    cursor:pointer;
+}
+.main-header__wrapper{
+    display: flex;
+    width: 100%;
+}
+.tabs-list{
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    margin-left: auto;
+}
+.main-header{
+    width: 100%;
+}
+.tabs-list__item{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.isActive{
+    color: white;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+.hz{
+    display: flex;
+    flex-direction: column;
+}
+.backup:hover{
+    cursor: pointer;
+    color:#61DBFB;
+}
+.back{
+    text-decoration: line-through;
+    color: rgb(139, 138, 138);
+}

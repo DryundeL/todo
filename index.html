@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/gen.css">
+    
+    <title>ТуДушечка</title>
+</head>
+<body>
+    <main>
+        <header class = "main-header">
+            <div class = "main-header__wrapper">
+                <div class="hz">
+                    <p class="date" id = "date">Saturday, June 1</p>
+                    <p class="active"></p>
+                </div>
+                <ul class = "tabs-list">
+                    <li><button class="tabs-list__item isActive">Incomplete Tasks</button></li>
+                    <li><button class="tabs-list__item">Completed Tasks</button></li>
+                </ul>
+            </div>
+        </header>
+        <div class="enter-task__container">
+            <input type="text" class="what-to-do" placeholder="Enter a task...">
+            <button type="submit" class="btn">Add Task</button>
+        </div>
+        <ul class="tasks-list">     
+        </ul>
+    </main>
+</body>
+<script src="/script.js"></script>
+</html>
