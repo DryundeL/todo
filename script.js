@@ -16,7 +16,9 @@ for (let tab = 0; tab<tabs.length; tab++){
         })
         tabs[tab].classList.toggle("isActive")
         getTodo()
-    })    
+    })   
+    
+    
 }
 
 function getTodo(){
