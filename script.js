@@ -18,10 +18,6 @@ for (let tab = 0; tab<tabs.length; tab++){
         getTodo()
     })   
 }
-
-
-
-
 function getTodo(){
     fetch('./todo.php')
     .then(res => res.json())
